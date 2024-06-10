@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        subject1 = Number(prompt("Enter the marks of subject1: "));
+        subject2 = Number(prompt("Enter the marks of subject2: "));
+        subject3 = Number(prompt("Enter the marks of subject3: "));
+        subject4 = Number(prompt("Enter the marks of subject4: "));
+        subject5 = Number(prompt("Enter the marks of subject5: "));
+        var total = subject1+subject2+subject3+subject4+subject5;
+        var percentage = ((total)/500)*100;
+        if(percentage>=40){
+            console.log(total,percentage);
+        }
+        else{
+            console.log("Failed , try next time");
+        }
+        console.log(total,percentage)
+    </script>
+</body>
+</html>
